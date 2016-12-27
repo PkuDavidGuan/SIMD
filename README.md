@@ -1,6 +1,7 @@
 # SIMD
 ## 代码简介
-> 代码依赖：提前下载yuvplayer
+       > 代码依赖：提前下载yuvplayer
+
 * yuv目录中的dem1.yuv和dem2.yuv是两个单帧的yuv文件,lab 4.1用这两个就行,大小都是1920*1080(width*height),截取于parkscene.yuv文件;
 * parkscene.yuv是一个240帧的yuv文件.yuv文件可以用yuvplayer播放.
 * lab4.1两个程序应该分别生成两个84帧的yuv文件(题目要求中的85应该改成84),用yuvplayer播放应该可以看到每一帧渐变的效果.
